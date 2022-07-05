@@ -5,3 +5,8 @@
 body {
     font-family: 'Kalpurush', Arial, sans-serif !important;
 }
+
+.active{
+    background: #ff284f;
+    color: white;
+}

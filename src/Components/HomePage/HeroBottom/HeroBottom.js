@@ -72,7 +72,7 @@ const HeroBottom = () => {
       <div className="card-content lg:px-24 ">
         <div className="card-wrapper bg-gray-100 rounded-md p-4 w-full grid grid-cols-2 lg:grid-cols-4 gap-4">
           {cardItems.map((items) => (
-            <HeroBottomCard image={items.image} text={items.text} />
+            <HeroBottomCard images={items.image} text={items.text} />
           ))}
         </div>
       </div>
@@ -81,7 +81,7 @@ const HeroBottom = () => {
         <div className="card p-10 grid  grid-cols-2 lg:grid-cols-3 gap-8 ">
             {
             services.map((items) => (
-                <ServiceCard image={items.image} title={items.title} text={items.text} />
+                <ServiceCard images={items.image} title={items.title} text={items.text} />
             ))
             }          
         </div>
