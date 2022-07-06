@@ -4,7 +4,6 @@ import bcs from "../../Assets/BCS-Course-Thumbnail.jpg";
 import bank from "../../Assets/job.webp";
 import primary from "../../Assets/prathomic.jpg";
 import bcsQ from "../../Assets/BCS-Question-Solving.webp";
-import Button from "../Button/Button";
 
 const JobpreCourse = () => {
   const jobs = [
