@@ -27,11 +27,11 @@ const HeroArea = () => {
 
 
   return (
-    <div className="p-28  bg-black text-center">
+    <div className=" px-10 lg:px-24 py-32  bg-black text-center">
 
     <div className="text text-white">
-      <h1 className="text-5xl font-semibold">বিশেষ মূল্যছাড়!</h1>
-      <p className="text-xl my-5">পুরো জুলাই মাস জুড়ে টেন মিনিট স্কুলের বিভিন্ন কোর্স করা যাবে আরো সাশ্রয়ে!</p>
+      <h1 className="text-3xl md:text-3xl lg:text-5xl font-semibold">বিশেষ মূল্যছাড়!</h1>
+      <p className="text-xl px-5 my-5">পুরো জুলাই মাস জুড়ে টেন মিনিট স্কুলের বিভিন্ন কোর্স করা যাবে আরো সাশ্রয়ে!</p>
     </div>
 
       <Carousel 
@@ -39,7 +39,7 @@ const HeroArea = () => {
          draggable={true}
          showDots={true}
          responsive={responsive}
-         ssr={true} // means to render carousel on server-side.
+         ssr={true} 
          infinite={true}
          dotListClass="custom-dot-list-style"
          slidesToSlide={1}>

@@ -62,10 +62,10 @@ const HeroBottom = () => {
   return (
     <div className="py-8">
       <div className="title text-center mb-5 text-gray-600">
-        <h1 className="text-4xl font-semibold mb-2">
+        <h1 className=" text-2xl lg:text-4xl font-semibold mb-2">
           নিজের শেখা নিজেই গুছিয়ে <br /> নেয়ার যাত্রা শুরু হোক
         </h1>
-        <p className="text-xl text-gray-500">
+        <p className="text-xl px-3 text-gray-500">
           যেকোনো বিষয়ের যেকোনো টপিকে পড়ালেখা করতে চলে যাও তোমার পছন্দের সেকশনে
         </p>
       </div>
@@ -78,7 +78,7 @@ const HeroBottom = () => {
       </div>
 
       <div className="services-content lg:px-24">
-        <div className="card p-10 grid  grid-cols-2 lg:grid-cols-3 gap-8 ">
+        <div className="card md:p-10 grid  grid-cols-2 lg:grid-cols-3 md:gap-8 ">
             {
             services.map((items) => (
                 <ServiceCard images={items.image} title={items.title} text={items.text} />

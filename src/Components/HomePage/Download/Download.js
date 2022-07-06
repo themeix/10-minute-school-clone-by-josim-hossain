@@ -68,7 +68,7 @@ const Download = () => {
           </div>
           <div className="download-source mb-5 lg:flex justify-center mt-10">
             <a href="https">
-                <img className="mx-autow-[30%] lg:w-[60%]" src={playstore} alt="play Store" />
+                <img className="mx-auto w-[30%] lg:w-[60%]" src={playstore} alt="play Store" />
             </a>
             <a href="https">
                 <img className=" mx-auto w-[30%] lg:w-[60%]" src={appStore} alt="App Store" />
